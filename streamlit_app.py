@@ -21,6 +21,10 @@ with st.sidebar:
     openai_api_key = st.text_input(
         label="OPENAI API KEY",
     )
+
+    st.markdown("---")
+    st.write("Github: https://github.com/Hyungjun-Jack/assignment10")
+
     
 ASSISTANT_NAME = "Investor Assistant"
 
